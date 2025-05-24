@@ -1,2 +1,6 @@
+
 const fs= require('fs');
-fs.unlinkSync('fs3.txt');
+// let ans = fs.existsSync('MyDirectory1')
+let ans = fs.existsSync('1_f2s.txt')
+console.log(ans);
+
